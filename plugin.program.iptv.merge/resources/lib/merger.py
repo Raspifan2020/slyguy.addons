@@ -211,9 +211,6 @@ class Merger(object):
             for line in infile:
                 line = line.strip()
 
-                if 'free-iptv' in line.lower():
-                    free_iptv = MattHuisman_Ashole
-
                 if '#EXTM3U' in line:
                     valid_file = True
 
